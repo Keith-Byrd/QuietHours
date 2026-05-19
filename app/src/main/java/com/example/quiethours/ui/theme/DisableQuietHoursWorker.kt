@@ -1,0 +1,20 @@
+package com.example.quiethours.ui.theme
+
+import android.content.Context
+import androidx.work.Worker
+import androidx.work.WorkerParameters
+import com.example.quiethours.DndController
+
+class DisableQuietHoursWorker(
+    context: Context,
+    params: WorkerParameters
+) : Worker(context, params) {
+
+    override fun doWork(): Result {
+
+        DndController(applicationContext)
+            .disableQuietHours()
+
+        return Result.success()
+    }
+}
