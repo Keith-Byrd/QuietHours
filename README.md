@@ -40,6 +40,7 @@ This project was developed to solve a real-world usability problem while demonst
 ## Screenshots
 
 <table>
+
 <tr>
 <td align="center">
 <img src="./screenshots/Disabled.png" width="250">
@@ -51,6 +52,19 @@ Disabled State
 <img src="./screenshots/Enabled.png" width="250">
 <br>
 Enabled State
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="./screenshots/QH_Off.png" width="250">
+<br>
+Quiet Hours Off
+</td>
+
+<td align="center">
+<img src="./screenshots/QH_On.png" width="250">
+<br>
+Quiet Hours On
 </td>
 </tr>
 </table>
