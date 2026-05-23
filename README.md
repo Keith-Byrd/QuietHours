@@ -1,9 +1,6 @@
 # QuietHours
 
 
-## Screenshot Test
-
-![Disabled State](./screenshots/Disabled.png)
 
 Android utility app that automatically enables Do Not Disturb during configurable quiet hours while still allowing phone calls.
 
@@ -43,19 +40,19 @@ This project was developed to solve a real-world usability problem while demonst
 ## Screenshots
 
 <table>
-  <tr>
-    <td style="text-align:center;">
-      <img src="./screenshots/Disabled.png" width="250">
-      <br>
-      Disabled State
-    </td>
+<tr>
+<td align="center">
+<img src="./screenshots/Disabled.png" width="250">
+<br>
+Disabled State
+</td>
 
-    <td style="text-align:center;">
-      <img src="./screenshots/Enabled.png" width="250">
-      <br>
-      Enabled State
-    </td>
-  </tr>
+<td align="center">
+<img src="./screenshots/Enabled.png" width="250">
+<br>
+Enabled State
+</td>
+</tr>
 </table>
 
 ![](C:\Users\keith\AndroidStudioProjects\Quiethours\screenshots\Enabled.png)
