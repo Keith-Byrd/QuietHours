@@ -39,17 +39,43 @@ This project was developed to solve a real-world usability problem while demonst
 
 ## Screenshots
 
-### Disabled State
-<img src="./screenshots/Disabled.png" width="220" alt="Disabled state">
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
 
-### Enabled State
-<img src="./screenshots/Enabled.png" width="220" alt="Enabled state">
+  <div style="text-align: center;">
+    <img src="./screenshots/Disabled.png" width="200" alt="Disabled state"><br>
+    Disabled
+  </div>
 
-### QuietHours Off
-<img src="./screenshots/QH_Off.jpg" width="220" alt="QuietHours off">
+  <div style="text-align: center;">
+    <img src="./screenshots/Enabled.png" width="200" alt="Enabled state"><br>
+    Enabled
+  </div>
 
-### QuietHours On
-<img src="./screenshots/QH_On.jpg" width="220" alt="QuietHours on">
+  <div style="text-align: center;">
+    <img src="./screenshots/QH_Off.png" width="200" alt="QuietHours off"><br>
+    Off
+  </div>
+
+  <div style="text-align: center;">
+    <img src="./screenshots/QH_On.png" width="200" alt="QuietHours on"><br>
+    On
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Purpose
 
 This project was created to solve a real-world usability problem while demonstrating Android development, scheduling, background services, and system-level notification control.
