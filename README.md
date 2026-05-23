@@ -39,31 +39,29 @@ This project was developed to solve a real-world usability problem while demonst
 
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+<table>
+  <tr>
+    <td style="text-align:center;">
+      <img src="./screenshots/Disabled.png" width="200" alt="Disabled"><br>
+      Disabled
+    </td>
 
-  <div style="text-align: center;">
-    <img src="./screenshots/Disabled.png" width="200" alt="Disabled state"><br>
-    Disabled
-  </div>
+    <td align="center">
+      <img src="./screenshots/Enabled.png" width="200" alt="Enabled"><br>
+      Enabled
+    </td>
 
-  <div style="text-align: center;">
-    <img src="./screenshots/Enabled.png" width="200" alt="Enabled state"><br>
-    Enabled
-  </div>
+    <td align="center">
+      <img src="./screenshots/QH_Off.png" width="200" alt="Off"><br>
+      Off
+    </td>
 
-  <div style="text-align: center;">
-    <img src="./screenshots/QH_Off.png" width="200" alt="QuietHours off"><br>
-    Off
-  </div>
-
-  <div style="text-align: center;">
-    <img src="./screenshots/QH_On.png" width="200" alt="QuietHours on"><br>
-    On
-  </div>
-
-</div>
-
-
+    <td align="center">
+      <img src="./screenshots/QH_On.png" width="200" alt="On"><br>
+      On
+    </td>
+  </tr>
+</table>
 
 
 
