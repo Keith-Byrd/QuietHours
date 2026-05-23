@@ -43,8 +43,8 @@ This project was developed to solve a real-world usability problem while demonst
 |----------|---------|
 | ![Disabled](./screenshots/Disabled.png) | ![Enabled](./screenshots/Enabled.png) |
 
-| Off | On |
-|-----|----|
+| Off                               | On |
+|-----------------------------------|----|
 | ![Off](./screenshots/QH_Off.png) | ![On](./screenshots/QH_On.png) |
 
 

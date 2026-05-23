@@ -33,8 +33,10 @@ class MainActivity : ComponentActivity() {
                     verticalArrangement = Arrangement.Center
                 ) {
 
-                    Text("QuietHours")
-
+                    Text(
+                        text = "QuietHours",
+                        style = MaterialTheme.typography.titleLarge
+                    )
                     Spacer(Modifier.height(16.dp))
 
                     Button(onClick = {
@@ -46,7 +48,8 @@ class MainActivity : ComponentActivity() {
                             controller.disableQuietHours()
                         }
                     }) {
-                        Text(if (enabled) "Disable Quiet Hours" else "Enable Quiet Hours")
+                        Text(if (enabled) "Disable Quiet Hours" else "Enable Quiet Hours",
+                        style = MaterialTheme.typography.titleLarge)
                     }
                 }
             }
