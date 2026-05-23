@@ -40,35 +40,34 @@ This project was developed to solve a real-world usability problem while demonst
 ## Screenshots
 
 <table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Disabled.png" width="220">
+      <br>
+      Disabled State
+    </td>
 
-<tr>
-<td align="center">
-<img src="./screenshots/Disabled.png" width="250">
-<br>
-Disabled State
-</td>
+    <td align="center">
+      <img src="./screenshots/Enabled.png" width="220">
+      <br>
+      Enabled State
+    </td>
+  </tr>
 
-<td align="center">
-<img src="./screenshots/Enabled.png" width="250">
-<br>
-Enabled State
-</td>
-</tr>
-<tr>
-<td align="center">
-<img src="./screenshots/QH_Off.png" width="250">
-<br>
-Quiet Hours Off
-</td>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/QH_Off.jpg" width="220">
+      <br>
+      QuietHours Off
+    </td>
 
-<td align="center">
-<img src="./screenshots/QH_On.png" width="250">
-<br>
-Quiet Hours On
-</td>
-</tr>
+    <td align="center">
+      <img src="./screenshots/QH_On.jpg" width="220">
+      <br>
+      QuietHours On
+    </td>
+  </tr>
 </table>
-
 
 
 ## Purpose
