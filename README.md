@@ -55,9 +55,6 @@ Enabled State
 </tr>
 </table>
 
-![](C:\Users\keith\AndroidStudioProjects\Quiethours\screenshots\Enabled.png)
-![](C:\Users\keith\AndroidStudioProjects\Quiethours\screenshots\Disabled.png)
-
 
 
 ## Purpose
