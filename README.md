@@ -39,31 +39,13 @@ This project was developed to solve a real-world usability problem while demonst
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td style="text-align:center;">
-      <img src="./screenshots/Disabled.png" width="200" alt="Disabled"><br>
-      Disabled
-    </td>
+| Disabled | Enabled |
+|----------|---------|
+| ![Disabled](./screenshots/Disabled.png) | ![Enabled](./screenshots/Enabled.png) |
 
-    <td align="center">
-      <img src="./screenshots/Enabled.png" width="200" alt="Enabled"><br>
-      Enabled
-    </td>
-
-    <td align="center">
-      <img src="./screenshots/QH_Off.png" width="200" alt="Off"><br>
-      Off
-    </td>
-
-    <td align="center">
-      <img src="./screenshots/QH_On.png" width="200" alt="On"><br>
-      On
-    </td>
-  </tr>
-</table>
-
-
+| Off | On |
+|-----|----|
+| ![Off](./screenshots/QH_Off.png) | ![On](./screenshots/QH_On.png) |
 
 
 
