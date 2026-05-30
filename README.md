@@ -1,87 +1,93 @@
 # QuietHours
 
+QuietHours is a native Android automation application that schedules and manages Do Not Disturb (DND) mode based on user-defined quiet hours.
 
+It demonstrates system-level Android development, background scheduling with WorkManager, and modern UI implementation using Jetpack Compose.
 
-Android utility app that automatically enables Do Not Disturb during configurable quiet hours while still allowing phone calls.
-
-## Features
-
-- Automatically enables and disables Android Do Not Disturb mode during configurable quiet hours
-- Preserves incoming phone call notifications while suppressing text and application notifications
-- Boot persistence using BroadcastReceiver to restore scheduling behavior after device restart
-- Lightweight native Android implementation written in Kotlin
-- Real-time enable/disable state management from the application UI
-- Android system service integration using NotificationManager and notification policy APIs
-- Gradle-based project structure with Git version control and reproducible builds
-- Designed and tested on physical Android devices and Android Emulator environments
-
-## Technical Highlights
-
-- Kotlin
-- Android SDK
-- BroadcastReceiver
-- NotificationManager
-- AlarmManager foundation
-- Gradle Kotlin DSL
-- Android permissions handling
-- Git / GitHub workflow
-
-## Engineering Goals
-
-This project was developed to solve a real-world usability problem while demonstrating:
-
-- Android application architecture
-- Background scheduling concepts
-- System-level Android API integration
-- Persistent application behavior across device reboot
-- Source control and iterative development practices
-- Mobile UI and state management fundamentals
+---
 
 ## Screenshot
 
 <img src="screenshots/QH_Off.png" width="150" />
 
-## Purpose
+## ✨ Features
 
-This project was created to solve a real-world usability problem while demonstrating Android development, scheduling, background services, and system-level notification control.
+- Automatically schedules Do Not Disturb during user-defined quiet hours
+- Allows incoming calls while suppressing other notifications
+- Manual override via in-app toggle
+- Persistent scheduling across device restarts
+- Simple, minimal Jetpack Compose UI
 
-## Technologies
+---
+
+## 🏗️ Architecture & Implementation
+
+QuietHours is structured as a lightweight Android system automation application with clear separation of concerns:
+
+### UI Layer
+- Jetpack Compose-based interface
+- Reactive state management for toggle and schedule configuration
+
+### System Layer
+- Android NotificationManager API for Do Not Disturb control
+- Runtime permission handling for notification policy access
+
+### Scheduling Layer
+- WorkManager-based scheduling for reliable background execution
+- Time-based delay calculation for enable/disable events
+- Ensures execution survives Doze mode and background restrictions
+
+### Data Layer
+- SharedPreferences for local persistence of user settings
+
+---
+
+## ⚙️ Tech Stack
 
 - Kotlin
+- Jetpack Compose
+- WorkManager
+- Android NotificationManager API
 - Android SDK
-- AlarmManager
-- BroadcastReceiver
-- NotificationManager
 - Gradle
 
-## Current Status
+---
 
-Working prototype with:
-- DND control
-- boot persistence
-- scheduling foundation
+## 🔐 Permissions Used
 
-## Future Improvements
+- `ACCESS_NOTIFICATION_POLICY` – required to modify Do Not Disturb settings
+- `RECEIVE_BOOT_COMPLETED` – allows restoration of scheduled behavior after device reboot
 
-- Configurable scheduling UI
-- Material Design polish
-- Exact alarm scheduling
-- Multiple quiet-hour profiles
-- Export/import settings
+---
 
-## Build Instructions
+## 🧠 Key Engineering Concepts
 
-1. Clone repository
+- Android system service integration
+- Background task scheduling with WorkManager
+- Time-based automation logic
+- Persistent local state management
+- Permission-aware system feature gating
+- Declarative UI with Jetpack Compose
+
+---
+
+## 🚧 Current Status
+
+Stable working Android prototype demonstrating:
+
+- System-level Do Not Disturb control
+- Automated scheduling via WorkManager
+- Persistent configuration handling
+- Manual override and state management
+
+---
+
+## 🚀 Build Instructions
+
+1. Clone repository:
+   ```bash
+   git clone https://github.com/yourusername/quiethours.git
 2. Open in Android Studio
 3. Sync Gradle
-4. Run on Android device
-5. Grant Do Not Disturb permissions
-
-## Permissions Used
-
-- ACCESS_NOTIFICATION_POLICY
-- RECEIVE_BOOT_COMPLETED
-
-## Author
-
-Keith Byrd
+4. Run on physical device or emulator
+5. Grant Do Not Disturb permission when prompted
