@@ -37,24 +37,9 @@ This project was developed to solve a real-world usability problem while demonst
 - Source control and iterative development practices
 - Mobile UI and state management fundamentals
 
-## Screenshots
+## Screenshot
 
-| Disabled | Enabled |
-|----------|---------|
-| ![Disabled](./screenshots/Disabled.png) | ![Enabled](./screenshots/Enabled.png) |
-
-| Off                               | On |
-|-----------------------------------|----|
-| ![Off](./screenshots/QH_Off.png) | ![On](./screenshots/QH_On.png) |
-
-
-
-
-
-
-
-
-
+![](C:\Users\keith\AndroidStudioProjects\Quiethours\screenshots\QH_Off.png)
 
 ## Purpose
 

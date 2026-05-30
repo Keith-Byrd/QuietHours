@@ -26,4 +26,9 @@ class DndController(private val context: Context) {
 
         nm.setInterruptionFilter(NotificationManager.INTERRUPTION_FILTER_ALL)
     }
+
+    fun isQuietHoursEnabled(): Boolean {
+        return nm.currentInterruptionFilter ==
+                NotificationManager.INTERRUPTION_FILTER_PRIORITY
+    }
 }

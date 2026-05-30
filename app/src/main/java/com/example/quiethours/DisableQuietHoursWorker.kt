@@ -1,19 +1,18 @@
-package com.example.quiethours.ui.theme
+package com.example.quiethours
 
 import android.content.Context
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import com.example.quiethours.DndController
 
-class EnableQuietHoursWorker(
+class DisableQuietHoursWorker(
     context: Context,
     params: WorkerParameters
 ) : Worker(context, params) {
 
     override fun doWork(): Result {
 
-        DndController(applicationContext)
-            .enableQuietHours()
+        val controller = DndController(applicationContext)
+        controller.disableQuietHours()
 
         return Result.success()
     }

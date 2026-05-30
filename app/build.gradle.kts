@@ -1,3 +1,6 @@
+dependencies {
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+}
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
