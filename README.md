@@ -39,7 +39,7 @@ This project was developed to solve a real-world usability problem while demonst
 
 ## Screenshot
 
-![](C:\Users\keith\AndroidStudioProjects\Quiethours\screenshots\QH_Off.png)
+![](screenshots/QH_Off.png)
 
 ## Purpose
 
