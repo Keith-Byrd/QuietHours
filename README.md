@@ -39,7 +39,7 @@ This project was developed to solve a real-world usability problem while demonst
 
 ## Screenshot
 
-![](screenshots/QH_Off.png)
+<img src="screenshots/QH_Off.png" width="150" />
 
 ## Purpose
 
